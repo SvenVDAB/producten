@@ -10,7 +10,7 @@ import java.util.List;
 
 
 @RestController
-public class IndexController {
+class IndexController {
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     @GetMapping("/")

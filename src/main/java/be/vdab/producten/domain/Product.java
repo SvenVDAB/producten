@@ -9,4 +9,11 @@ public class Product {
         this.naam = naam;
     }
 
+    public long getId() {
+        return id;
+    }
+
+    public String getNaam() {
+        return naam;
+    }
 }
